@@ -1,0 +1,17 @@
+#Why use R with relational database
+The data to be analysed resides in a relational database & R is well known for its powerful data analysis & data visualisation capabilities.
+
+For R data must reside in the memory therefore SQL can be used for data analysis with R as it helps in:
+1. Providing concurrent access to data
+2. Manipulating large dataset
+3. Persistence
+
+
+#RDBMS (Relational Databases)
+When data is stored in RDBMS:
+
+1. Manipulating large structured databases Individual observations or rows can be easily changed. RDBMS servers are designed for scalability & can easily support large datasets.
+2. Providing concurrent data access to multiple users.A single database could be used for generating standard summary reports using SQL & the data could also be used to perform deeper analysis using R.
+3. Maintaining data consistency (data types/ schemas) RDBMS insure data integrity, consistency & security. Any data stored in RDBMS must adhere to defined constraints & updates are wrapped within atomic units known as transactions. Access to data can be managed using data control language statements such as the SQL GRANT or REVOKE statement.
+4. Persistence (granular, secure & consistent) Database servers can also be configured to provide data audit trail to better understand any unauthorised data access.
+
